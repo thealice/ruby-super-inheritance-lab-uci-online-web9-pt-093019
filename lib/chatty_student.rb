@@ -7,7 +7,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    10.times {|i| puts super}
+    10.times {|i| pp super}
   end
 
 end
